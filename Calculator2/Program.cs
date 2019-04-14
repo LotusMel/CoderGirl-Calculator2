@@ -44,8 +44,14 @@ namespace Calculator2
 
             Console.ReadLine();
         }
-
-        // Use methods for each type of calculation.
+        
+        
+        /// <summary>
+        /// Adds firstNumber and SecondNumber
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <param name="secondNumber"></param>
+        /// <returns>The total of the two numbers</returns>
         public static double Add(double firstNumber, double secondNumber)
         {
             double result = firstNumber + secondNumber;
@@ -53,13 +59,25 @@ namespace Calculator2
             return result;
         }
         
+        /// <summary>
+        /// Subtracts secondNumber from firstNumber         
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <param name="secondNumber"></param>
+        /// <returns>The difference of the two numbers</returns>
         public static double Subtract(double firstNumber, double secondNumber)
         {
             double result = firstNumber - secondNumber;
 
             return result;
         }
-
+        
+        /// <summary>
+        /// Multiplies the firstNumber by the secondNumber
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <param name="secondNumber"></param>
+        /// <returns>The product of the two numbers</returns>
         public static double Multiply(double firstNumber, double secondNumber)
         {
             double result = firstNumber * secondNumber;
@@ -67,6 +85,12 @@ namespace Calculator2
             return result;
         }
 
+        /// <summary>
+        /// Divides the firstNumber by the secondNumber
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <param name="secondNumber"></param>
+        /// <returns>The quotient of the two numbers</returns>
         public static double Divide(double firstNumber, double secondNumber)
         {
             double result = firstNumber / secondNumber;
